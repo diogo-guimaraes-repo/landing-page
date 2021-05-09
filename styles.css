@@ -307,8 +307,48 @@ html {
     }
   }
 
+  #hero {
+    padding:4%;
+    background:#7e8890;
+    align-items: center;
+    text-align: center;
+    border-bottom: 0;
+  }
+
+  #form {
+    max-width:600px;
+    margin:0 auto
+  }
+
+  #email {
+    background-color:hsla(0,0%,100%,.8);
+    height:46.5px;
+    padding-left:24px;
+    padding-right:24px;
+    letter-spacing:1px;
+    border:none;
+    border-top-left-radius:36px;
+    border-bottom-left-radius:36px
+  }
+
+  #email:focus {
+    z-index:2;
+   background-color:hsla(0,0%,100%,.8)
+  }
+
+  .btn-form {
+    border-top-right-radius:36px;
+    border-bottom-right-radius:36px;
+    background:#7ec855;
+    border-color:#7ec855;
+    color: #fff;
+    height:46.5px;
+  }
+
+
+
   footer {
-    margin-top: 200px;
+    margin-top: 0;
     background-color: rgb(26, 6, 6);
     padding: 20px;
   }
